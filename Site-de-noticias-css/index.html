@@ -7,14 +7,14 @@
         <link rel="stylesheet" type="text/css" href="estilo.css">
         
     </head>
-    <body class="home">
+    <body id="tres-colunas" class="home">
         
         <!--Início do container-->
         <div id="container">
 
             <div id="topo"><!--início do topo-->
-                <h1 class="logo">Notícias Cidade</h1><!--Logo/Nome-->
 
+                <h1 class="logo">Notícias Cidade</h1><!--Logo/Nome-->
                  <ul id="navegacao"><!--barra de menu-->
 
                     <li class="primeiro"><a id="home" href="index.html">Home</a></li>
@@ -24,12 +24,69 @@
                     <li><a id="promocoes" href="promocoes">Promoções</a></li>
 
                  </ul>
-            </div>            <!--fim do topo-->
+            </div><!--fim do topo-->
             
             <div id="conteudo"><!--início do conteúdo-->
-                <div id="primario">Primario</div><!--conteudo principal-->
-                <div id="secundario">Secundario</div>
-                <div id="lateral">Lateral</div>
+
+                <div id="primario"><!--inicio conteudo principal-->
+                    <div class="caixa">
+                        <h2>Sei lá</h2>
+                        <div class="caixa-conteudo">
+                            Conteúdo<br>
+                            Conteúdo<br>
+                            Conteúdo<br>
+                            Conteúdo<br>
+                            Conteúdo<br>
+                        </div>
+                    </div>
+                </div><!--fim conteudo principal-->
+
+                <div id="secundario"><!--inicio conteudo secundario-->
+                    <div class="caixa">
+                        <h2>Sei lá</h2>
+                        <div class="caixa-conteudo">
+                            Conteúdo<br>
+                            Conteúdo<br>
+                            Conteúdo<br>
+                            Conteúdo<br>
+                            Conteúdo<br>                        
+                        </div>
+                    </div>
+                    
+                </div><!--fim conteudo secundario-->
+                
+                <div id="lateral"><!--Inicio Lateral-->
+                    <div class="caixa">
+                        <h2>Entrevistas</h2>
+                        <div class="caixa-conteudo">
+                            <ul>
+                                <li><a href="">Sigmund Freud</a></li>
+                                <li><a href="">Carl Jung</a></li>
+                                <li><a href="">Albert Bandura</a></li>
+                                <li><a href="">Carl Rogers</a></li>
+                                <li><a href="">Burrhus Skinner</a></li>
+                                <li><a href="">Jean Piaget</a></li>
+                                <li><a href="">Abraham Maslow</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="caixa">
+                            <h2>Novas</h2>
+                            <div class="caixa-conteudo">
+                                <form>
+                                    <div>
+                                        <label for="email">Email:</label>
+                                        <input type="text" name="email" id="email" placeholder="E-mail">
+                                    </div>
+                                    <div>
+                                        <input class="submit" type="submit" value="Cadastrar">
+                                    </div>
+                                </form>
+                            </div>
+                    </div>
+                    
+                </div><!--Fim Lateral-->
+
             </div><!--fim do conteúdo-->
 
         </div>        
