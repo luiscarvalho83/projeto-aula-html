@@ -1,0 +1,57 @@
+/**Layout Fixo**/
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: #f2f2f2;
+}
+#container{
+    width: 90%;
+    margin: 0 auto;
+    background: #fff;
+}
+#marca{
+    height: 100px;
+    background: #9E9E9E;
+    text-align: center;
+    line-height: 100px;
+}
+#conteudo{
+    width: 74%;/*520px*/
+    float: right;
+}
+#paragrafo1{
+    width: 320px;
+    float: left;
+}
+#paragrafo2{
+    width: 180px;
+    float: right;
+    background: #d1d1d1;
+}
+#paragrafo1 h3, #paragrafo1 p{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#paragrafo2 h3, #paragrafo2 p{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#navegacao{
+    width: 24%;/*180px*/
+    float: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: #d1d1d1;
+}
+#navegacao ul{
+    list-style: none;
+}
+#navegacao li a{
+    text-decoration: none;
+}
+
+#rodape{
+    clear: both;
+    background: #c4c4c4;
+    padding: 5px;
+}
