@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+    <title>Projeto Finanças</title>
+  </head>
+  <body>
+    <h1>Projeto Finanças</h1>
+
+    <header><!--Cabeçalho-->
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-warning">
+            <div class="container-fluid">
+                <!--Logo-->
+                <a href="#" class="navbar-brand">
+                    <img src="img/logo.png" class="ms-4" width="142">
+                </a>
+                <!--Menu Hamburguer-->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!--Navegação-->
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Recursos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Benefícios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Preço</a>
+                    </li>
+                    </ul>
+                </div>
+            </div>
+          </nav>
+    </header><!--Fim do Cabeçalho-->
+
+    <section id="home"><!--inicio da seção-->
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 d-flex"><!--texto da seção-->
+                    <div class="align-self-center">
+                        <h1 class="display-4">Suas contas, descomplicadas</h1>
+                        <p>
+                            Usado por mais de 1 milhão de pessoas, o Finans é uma ferramenta online que vai facilitar sua vida financeira.
+                        </p>
+                        <br>
+                        <form class="mt-4 mb-4">
+                            <div class="input-group input-group-lg">
+                                <input type="text" placeholder="Seu e-mail" class="form-control">
+                                <div class="input-group-text">
+                                    <button type="button" class="btn btn-primary">Cadastre-se</button>
+                                </div>
+                            </div>
+                        </form>
+                        <p>Disponível para 
+                            <a href="" class="btn btn-outline-dark">
+                                <svg fill="#000000" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 26 26" width="26px" height="26px"><path fill-rule="evenodd" d="M 24.121094 9.753906 L 24.121094 16.035156 C 24.121094 16.921875 23.414063 17.640625 22.539063 17.640625 C 21.667969 17.640625 20.960938 16.921875 20.960938 16.035156 L 20.960938 9.753906 C 20.960938 8.867188 21.664063 8.148438 22.539063 8.148438 C 23.414063 8.148438 24.121094 8.867188 24.121094 9.753906 Z M 3.457031 8.148438 C 2.585938 8.148438 1.878906 8.867188 1.878906 9.753906 L 1.878906 16.03125 C 1.878906 16.917969 2.585938 17.640625 3.457031 17.640625 C 4.335938 17.640625 5.039063 16.917969 5.039063 16.03125 L 5.039063 9.753906 C 5.039063 8.867188 4.335938 8.148438 3.457031 8.148438 Z M 5.992188 19.664063 C 5.992188 20.347656 6.546875 20.898438 7.226563 20.898438 L 8.636719 20.898438 L 8.636719 24.394531 C 8.636719 25.28125 9.347656 26 10.21875 26 C 11.09375 26 11.800781 25.28125 11.800781 24.394531 L 11.800781 20.898438 L 14.261719 20.898438 L 14.261719 24.394531 C 14.261719 25.28125 14.972656 26 15.84375 26 C 16.71875 26 17.425781 25.28125 17.425781 24.394531 L 17.425781 20.898438 L 18.835938 20.898438 C 19.515625 20.898438 20.070313 20.351563 20.070313 19.667969 L 20.070313 8.195313 L 5.992188 8.195313 Z M 20.035156 7.175781 L 5.960938 7.175781 C 6.144531 5.039063 7.59375 3.214844 9.664063 2.253906 L 8.363281 0.363281 C 8.285156 0.253906 8.304688 0.105469 8.402344 0.0351563 C 8.503906 -0.03125 8.648438 0 8.730469 0.113281 L 10.078125 2.074219 C 10.96875 1.722656 11.957031 1.527344 13 1.527344 C 14.042969 1.527344 15.027344 1.722656 15.921875 2.074219 L 17.269531 0.113281 C 17.351563 0 17.496094 -0.03125 17.597656 0.0351563 C 17.695313 0.105469 17.714844 0.253906 17.636719 0.363281 L 16.335938 2.253906 C 18.402344 3.214844 19.855469 5.039063 20.035156 7.175781 Z M 10.8125 4.445313 C 10.8125 4.015625 10.460938 3.671875 10.03125 3.671875 C 9.601563 3.671875 9.25 4.019531 9.25 4.445313 C 9.25 4.878906 9.601563 5.226563 10.03125 5.226563 C 10.460938 5.226563 10.8125 4.878906 10.8125 4.445313 Z M 16.84375 4.445313 C 16.84375 4.015625 16.496094 3.671875 16.066406 3.671875 C 15.636719 3.671875 15.289063 4.019531 15.289063 4.445313 C 15.289063 4.878906 15.636719 5.226563 16.066406 5.226563 C 16.496094 5.226563 16.84375 4.878906 16.84375 4.445313 Z"/></svg>
+                            </a>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <img src="img/capa-mulher.png">
+                </div>
+            </div>
+        </div>
+
+        
+    </section>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>

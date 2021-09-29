@@ -70,35 +70,30 @@ body.promocoes #navegacao a#promocoes
     width: 180px;
     float: left;
     margin: 0 0 20px -750px;
-    background: chocolate;
 }
 
 #tres-colunas #primario{
     width: 270px;
     float: left;
     margin: 0 0 20px 195px;
-    background: blue;
 }
 
 #duas-colunas #primario{
     width: 555px;
     float: left;
     margin: 0 0 20px 195px;
-    background: blue;
 }
 
 #uma-coluna #primario{
     width: 750px;
     float: left;
     margin: 0 0 20px 195px;
-    background: blue;
 }
 
 #secundario{
     width: 270px;
     float: left;
     margin: 0 0 20px 15px;
-    background: green;
 }
 /*Caixa*/
 .caixa{
@@ -154,6 +149,15 @@ input.submit {
     color: #fff;
     background-color: #b10333;
     border: 2px solid #870529;
+}
+
+img.imagem-principal {
+    width: 98%;
+    border: 3px solid #dfdfdf;
+}
+/*Formatando imagens*/
+img {
+    border: 2px solid #dfdfdf;
 }
 
 /*Rodape*/
